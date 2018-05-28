@@ -1,23 +1,28 @@
 <template>
     <div class="slide-wrapper">
-        <h1>Vuex consuming patterns</h1>
+        <h1>Basic Vuex concepts</h1>
         <pre v-highlightjs>
             <code class="javascript">
-                computed: {
-                  totalPrice () {
-                    return this.ammount * this.$store.getters.products[this.productId];
-                  }
-                }
-            </code>
-            <code class="javascript">
-              computed: {
-                ...mapGetters(['products', 'clientDiscountRate'])
-              }
-            </code>
-            <code class="javascript">
-              computed: {
-                ...mapState(['products', 'clientDiscountRate'])
-              }
+                const actions = {
+                    // async logic goes here and triggers a mutation
+                };
+
+                const mutations = {
+                    // here we actially do `state = newState
+                };
+
+                const getters = {
+                    // "computed" property for state, for +/- complex logic
+                };
+
+                export default {
+                  actions,
+                  getters,
+                  mutations,
+                  state: {
+                    // the source of truth
+                  },
+                };
             </code>
         </pre>
     </div>

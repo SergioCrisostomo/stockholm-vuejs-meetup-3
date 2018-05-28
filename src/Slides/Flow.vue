@@ -1,6 +1,6 @@
 <template>
     <div class="slide-wrapper">
-        <h1>The flow idea</h1>
+        <h1>Unidirectional data flow</h1>
         <img src="../assets/flow.png" alt="">
     </div>
 </template>

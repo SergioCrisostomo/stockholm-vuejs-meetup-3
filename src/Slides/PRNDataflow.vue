@@ -1,5 +1,6 @@
 <template>
     <div class="slide-wrapper">
+        <h1>ProReNata flow</h1>
         <img src="../assets/PRNdataflow.png" alt="">
     </div>
 </template>

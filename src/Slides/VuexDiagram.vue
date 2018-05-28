@@ -1,5 +1,6 @@
 <template>
     <div class="slide-wrapper">
+        <h1>Vuex flow</h1>
         <img src="../assets/vuex.png" alt="">
     </div>
 </template>
