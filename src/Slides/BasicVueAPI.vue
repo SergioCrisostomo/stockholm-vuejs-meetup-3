@@ -8,6 +8,7 @@
                   mixins: [],
                   components: [],
                   props: {},
+                  store: store,
                   data() {
                     return {
                       foo: 'bar'

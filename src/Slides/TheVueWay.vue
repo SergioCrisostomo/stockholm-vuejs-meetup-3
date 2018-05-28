@@ -1,7 +1,6 @@
 <template>
     <div class="slide-wrapper">
         <h1>Basic vue component</h1>
-        <p><i>(source: <a href="https://jsfiddle.net/65k8qsgd/6/" target="_blank">jsfiddle.net/65k8qsgd/6/</a>)</i></p>
         <pre v-highlightjs>
             <code class="javascript">
                 export default {

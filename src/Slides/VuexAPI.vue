@@ -8,7 +8,7 @@
                 };
 
                 const mutations = {
-                    // here we actially do `state = newState
+                    // here we actually do `state = newState`
                 };
 
                 const getters = {
