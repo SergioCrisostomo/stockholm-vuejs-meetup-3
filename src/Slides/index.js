@@ -19,6 +19,7 @@ import VuexConsumingPatterns1 from './VuexConsumingPatterns1.vue';
 import VuexConsumingPatterns2 from './VuexConsumingPatterns2.vue';
 import SomeGoodToKnowAboutVuex from './SomeGoodToKnowAboutVuex.vue';
 import ComponentStateVsStatelibrary from './ComponentStateVsStatelibrary.vue';
+import End from './End.vue';
 
 export default [
     Start,
@@ -41,4 +42,5 @@ export default [
     VuexConsumingPatterns2,
     VuexAsyncExample,
     SomeGoodToKnowAboutVuex,
+    End
 ];

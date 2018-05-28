@@ -1,9 +1,6 @@
 <template>
     <div id="app" @keyDown.left.right="navigate">
         <Layout>
-            <Header>
-                <h1>{{slides[slide].name}}</h1>
-            </Header>
             <Content>
                 <component :is="currentSlide"></component>
             </Content>
